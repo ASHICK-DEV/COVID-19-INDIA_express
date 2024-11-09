@@ -1,0 +1,22 @@
+GET http://localhost:3000/states/
+//Returns a list of all states in the state table
+
+###
+
+GET http://localhost:3000/states/34/
+//Returns a state based on the state ID
+
+###
+
+GET http://localhost:3000/districts/322/
+//Returns a state based on the state ID
+
+###
+
+GET http://localhost:3000/states/32/stats/
+//Returns the statistics of total cases, cured, active, deaths of a specific state based on state ID
+
+###
+
+GET http://localhost:3000/districts/310/details/
+//Returns an object containing the state name of a district based on the district ID
